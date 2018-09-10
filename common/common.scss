@@ -1,15 +1,8 @@
 /* MIXINS */
-@mixin boxShadow {
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.12);
-}
 
 @mixin buttonShadow {
-  //box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
-  box-shadow: 0px 4px 2px -2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 3px 0px 0px rgba(52, 60, 61, 0.43);
 }
-
-
-
 
 /* TYPOGRAPHY */
 //use Source Sans Pro
@@ -18,6 +11,19 @@ html {
   font-weight: 400;
 }
 
+body button,
+body input,
+body select,
+body textarea {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body code,
+body kbd,
+body pre,
+body samp {
+  font-family: 'Source Code Pro', monospace;
+}
 
 /* BUTTONS */
 //raise and round buttons
@@ -31,22 +37,3 @@ html {
         background: #C91432;
     }
 }
-
-
-/*
-body button,
-body input,
-body select,
-body textarea {
-  font-family: 'Source Sans Pro', sans-serif;
-}
-*/
-
-/*
-body code,
-body kbd,
-body pre,
-body samp {
-  font-family: 'Source Code Pro', monospace;
-}
-*/
