@@ -5,7 +5,7 @@
 
 @mixin buttonShadow {
   //box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
-  box-shadow: 0px 4px 2px -2px #000000;
+  box-shadow: 0px 4px 2px -2px rgba(0, 0, 0, 0.28);
 }
 
 
@@ -24,6 +24,7 @@ html {
 
 .btn {
   border-radius: 3px;
+  background-color: #A1D5B4;
   @include buttonShadow;
 }
 
