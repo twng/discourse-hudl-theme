@@ -39,12 +39,17 @@ body samp {
 
 .btn {
     border-radius: 3px;
-    //background: #A1D5B4;
+    background: #A1D5B4;
     @include buttonShadow;
 
-    &.btn-danger {
-        //background: #C91432;
+    &:hover {
+        background: #90CDA6;
+        color: #212121;
     }
+}
+
+.btn.btn-danger {
+    background: #C91432;
 }
 
 
