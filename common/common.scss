@@ -44,6 +44,15 @@ body samp {
 
     &:hover {
         background: #c0c0c0;
+        color: #343C3D;
+    }
+}
+
+.btn.btn-danger {
+    background: #C91432;
+
+    &:hover {
+        background: #b4122d;    
     }
 }
 
