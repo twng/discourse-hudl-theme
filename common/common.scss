@@ -39,25 +39,24 @@ body samp {
 
 .btn {
     border-radius: 3px;
-    background: #A1D5B4;
+    //background: #A1D5B4;
     text-transform: uppercase;
-    @include buttonShadow;
+    //@include buttonShadow;
 
     &:hover {
-        /*background: #A1D5B4;
-        color: #343C3D;*/
-        background: #90CDA6;
-        box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);
+        /*background: #90CDA6;
+        color: #343C3D;
+        box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);*/
     }
 
     &:active {
-        background: #90CDA6;
-        box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);
+        /*background: #90CDA6;
+        box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);*/
     }
 }
 
 .btn.btn-danger {
-    background: #C91432;
+    //background: #C91432;
 }
 
 
