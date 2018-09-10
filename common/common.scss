@@ -13,11 +13,39 @@ $white: #FFFFFF;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
+/* BASE STYLES */
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  //font-size: 14px;
+  //line-height: 1.428571;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.wrap {
+  padding: 0;
+}
+
 /* TYPOGRAPHY */
 //use Source Sans Pro
 html {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
+  font-size: initial;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  line-height: initial;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
 }
 
 body button,
@@ -119,10 +147,10 @@ tbody {
 .search-logs-list .col.heading,
 .staff-actions .col.heading,
 .web-hook-events .col.heading {
-    color: rgba(0, 0, 0, 0.6);
-    font-size: 12px;
-    height: 56px;
-    padding: 12px 12px;
+    //color: rgba(0, 0, 0, 0.6);
+    //font-size: 12px;
+    //height: 56px;
+    //padding: 12px 12px;
     vertical-align: middle;
 }
 
