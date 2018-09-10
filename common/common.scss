@@ -101,7 +101,30 @@ tbody {
     border-top: 0;
 }
 
+.table tbody tr, .topic-list > tbody > tr, .topic-list > thead > tr, .category-list > tbody > tr, .category-list > thead > tr, .latest-topic-list .table-heading, .latest-topic-list-item, .directory table tbody tr, .groups-table tbody tr, .user-main .user-content .user-invite-list tr, .admin-contents table:not(.pika-table) tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
 
+.table thead td,
+.table thead th, .topic-list thead td,
+.topic-list thead th, .category-list thead td,
+.category-list thead th, .latest-topic-list .more-topics,
+.latest-topic-list .table-heading, .directory table thead td,
+.directory table thead th, .groups-table thead td,
+.groups-table thead th, .user-main .user-content .user-invite-list th, .admin-contents table:not(.pika-table) thead td,
+.admin-contents table:not(.pika-table) thead th, .permalinks .col.heading,
+.screened-emails .col.heading,
+.screened-ip-addresses .col.heading,
+.screened-urls .col.heading,
+.search-logs-list .col.heading,
+.staff-actions .col.heading,
+.web-hook-events .col.heading {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    height: 56px;
+    padding: 12px 12px;
+    vertical-align: middle;
+}
 
 
 /* CATEGORY LISTS */
