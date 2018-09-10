@@ -97,6 +97,24 @@ body samp {
     width: 100%;
 }
 
+/* CATEGORY LISTS */
+
+.category-list tbody td:first-of-type,
+.category-list tbody th:first-of-type {
+  padding-left: 24px;
+}
+
+.category-list tbody td:last-of-type,
+.category-list tbody th:last-of-type {
+  padding-right: 24px;
+}
+
+.category-list tbody .category {
+  border-left-width: 2px;
+}
+
+
+
 /* FORM ELEMENTS */
 .select-kit.combo-box .select-kit-header {
     background: $white;
