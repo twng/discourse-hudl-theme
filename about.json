@@ -4,14 +4,14 @@
     "license_url": "https://github.com/twng/discourse-hudl-theme/LICENSE ",
     "color_schemes": {
         "Hudl Default": {
-            "primary": "212121",
+            "primary": "7EC598",
             "secondary": "ffffff",
-            "tertiary": "e91e63",
+            "tertiary": "9190AC",
             "quaternary": "7EC598",
             "header_background": "7EC598",
             "header_primary": "ffffff",
             "highlight": "eefd54",
-            "danger": "d32f2f",
+            "danger": "C91432",
             "success": "2e7b32",
             "love": "e91e63"
         }
