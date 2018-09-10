@@ -1,22 +1,19 @@
 {
-  "name": "Hudl Discourse Theme",
-  "about_url": "https://github.com/twng/discourse-hudl-theme",
-  "license_url": "https://github.com/twng/discourse-hudl-theme/LICENSE ",
-   "assets": {
-       "font": ""
-   },
-   "color_schemes": {
-       "Hudl Default": {
-           "primary": "212121",
-           "secondary": "ffffff",
-           "tertiary": "e91e63",
-           "quaternary": "3f51b5",
-           "header_background": "3f51b5",
-           "header_primary": "ffffff",
-           "highlight": "eefd54",
-           "danger": "d32f2f",
-           "success": "2e7b32",
-           "love": "e91e63"
-      }
+    "name": "Hudl Discourse Theme",
+    "about_url": "https://github.com/twng/discourse-hudl-theme",
+    "license_url": "https://github.com/twng/discourse-hudl-theme/LICENSE ",
+    "color_schemes": {
+        "Hudl Default": {
+            "primary": "212121",
+            "secondary": "ffffff",
+            "tertiary": "e91e63",
+            "quaternary": "3f51b5",
+            "header_background": "3f51b5",
+            "header_primary": "ffffff",
+            "highlight": "eefd54",
+            "danger": "d32f2f",
+            "success": "2e7b32",
+            "love": "e91e63"
+        }
     }
 }
