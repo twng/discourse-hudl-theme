@@ -40,10 +40,11 @@ body samp {
 .btn {
     border-radius: 3px;
     background: #A1D5B4;
+    text-transform: uppercase;
     @include buttonShadow;
 
     &:hover {
-        background: #7EC598;
+        background: #90CDA6;
         color: #343C3D;
     }
 }
@@ -59,5 +60,16 @@ body samp {
 }
 
 /* PANELS */
+
+/* FORM ELEMENTS */
+.select-kit.combo-box .select-kit-header {
+    background: $white;
+}
+
+.select-kit {
+    .select-kit-collection {
+        background: $white;
+    }
+}
 
 /* ADMIN LAYOUT */
