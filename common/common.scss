@@ -97,7 +97,17 @@ body samp {
     width: 100%;
 }
 
+tbody {
+  border-top: 0;
+}
+
+/*.table tbody tr, .topic-list > tbody > tr, .topic-list > thead > tr, .category-list > tbody > tr, .category-list > thead > tr, .latest-topic-list .table-heading, .latest-topic-list-item, .directory table tbody tr, .groups-table tbody tr, .user-main .user-content .user-invite-list tr, .admin-contents table:not(.pika-table) tr {
+  border-bottom: 1px solid color-chooser(rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.12));
+}*/
+
 /* CATEGORY LISTS */
+
+
 
 .category-list tbody td:first-of-type,
 .category-list tbody th:first-of-type {
