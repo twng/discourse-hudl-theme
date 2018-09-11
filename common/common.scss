@@ -62,6 +62,14 @@ body samp {
   font-family: 'Source Code Pro', monospace;
 }
 
+// Category list header
+h6, div.poll .poll-info .info-text, .select-kit.dropdown-select-box .select-kit-row .texts .name, .category-list tbody .category h3, .small-action .small-action-desc, .topic-map h3, .settings .setting h3 {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.428571;
+}
+
 /* BUTTONS */
 // rounded basic buttons
 
