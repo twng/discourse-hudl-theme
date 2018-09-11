@@ -15,37 +15,49 @@ $white: #FFFFFF;
 
 /* BASE STYLES */
 *,
-*::after,
-*::before {
-  box-sizing: inherit;
-}
-
-body {
-  font-size: 14px;
-  line-height: 1.428571;
-}
-
-html {
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-.wrap {
-  padding: 0;
+html {
+    font-family: sans-serif;
+
+    // set base font size
+    font-size: 14px;
+    @media (min-width: 768px) {
+        font-size: 16px;
+    }
+    @media (min-width: 992px) {
+        font-size: 18px;
+    }
+
+    line-height: 1.15;
+
+    -webkit-text-size-adjust: 100%;
+       -moz-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
+@-ms-viewport {
+  width: device-width;
+}
+
 
 /* TYPOGRAPHY */
 //use Source Sans Pro
-html {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
-  font-size: initial;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  line-height: initial;
-  -webkit-text-size-adjust: 100%;
-     -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-          text-size-adjust: 100%;
+
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    line-height: 1.618;
+    font-weight: 300;
+    text-align: left;
 }
 
 body button,
@@ -62,17 +74,9 @@ body samp {
   font-family: 'Source Code Pro', monospace;
 }
 
-// Category list header
-h6, div.poll .poll-info .info-text, .select-kit.dropdown-select-box .select-kit-row .texts .name, .category-list tbody .category h3, .small-action .small-action-desc, .topic-map h3, .settings .setting h3 {
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 0;
-  line-height: 1.428571;
-}
 
 /* BUTTONS */
 // rounded basic buttons
-
 .btn {
     border-radius: 3px;
     background: #d8d8d8;
@@ -156,7 +160,7 @@ tbody {
 .staff-actions .col.heading,
 .web-hook-events .col.heading {
     color: #343C3D;
-    font-size: 12px;
+    font-size: 1rem;
     height: 56px;
     padding: 12px 12px;
     vertical-align: middle;
@@ -164,6 +168,19 @@ tbody {
 
 
 /* CATEGORY LISTS */
+
+// Category list header
+h6,
+div.poll .poll-info .info-text,
+.select-kit.dropdown-select-box .select-kit-row .texts .name,
+.category-list tbody .category h3,
+.small-action .small-action-desc,
+.topic-map h3,
+.settings .setting h3 {
+
+    color: red;
+
+}
 
 .category-list thead td:first-of-type,
 .category-list thead th:first-of-type {
@@ -189,7 +206,7 @@ tbody {
 }
 
 .category-list thead th {
-    font-weight: 600;
+    font-weight: 400;
     white-space: nowrap;
 }
 
