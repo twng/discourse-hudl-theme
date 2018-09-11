@@ -210,6 +210,11 @@ div.poll .poll-info .info-text,
     white-space: nowrap;
 }
 
+/* POSTS */
+.cooked, .d-editor-preview {
+    line-height: inherit;
+}
+
 
 /* FORM ELEMENTS */
 .select-kit.combo-box .select-kit-header {
