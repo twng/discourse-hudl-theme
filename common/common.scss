@@ -78,7 +78,7 @@ h1, #topic-title h1, .body-page h1, .styleguide .styleguide-section .section-tit
   font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 1.2; 
+  line-height: 1.2;
 }
 
 
@@ -135,7 +135,30 @@ h1, #topic-title h1, .body-page h1, .styleguide .styleguide-section .section-tit
 /* HEADER */
 .d-header {
     box-shadow: none;
+    height: 63px;
 }
+
+.d-header #site-logo {
+    max-height: 39px;
+}
+
+.d-header-icons .d-icon {
+    font-size: 24px;
+    line-height: 1;
+}
+
+.d-header-icons .icon {
+    width: 40px;
+    height: 40px;    
+    padding: 3px;
+}
+
+.d-header-icons .icon img.avatar {
+    width: 31px;
+    height: 31px;
+}
+
+
 
 /* PANELS */
 .table, .topic-list, .category-list, .latest-topic-list, .directory table, .groups-table, .admin-contents table:not(.pika-table) {
