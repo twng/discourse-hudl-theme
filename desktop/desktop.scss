@@ -8,8 +8,7 @@
 //create conversation cards
 .topic-body {
     @include boxShadow;
-    background-color: #fff;
-    margin-top: 10px;
-    border-radius: 2px;
+    background-color: #fff;    
+    border-radius: 0px;
     padding: 12px 20px 0 20px;
 }

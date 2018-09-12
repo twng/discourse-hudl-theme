@@ -80,10 +80,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, #topic-title h1, .body-page h1, .styleguide .styleguide-section .section-title {
-  font-size: 1.5rem;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: 1.2;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.2;
 }
 
 .names span.first {
@@ -166,11 +166,51 @@ h1, #topic-title h1, .body-page h1, .styleguide .styleguide-section .section-tit
     height: 31px;
 }
 
+
+
+
+
+
+
+/* TOPIC POSTS */
+.topic-body {
+    float: none;
+}
+
+.topic-avatar {
+    position: absolute;
+    width: 36px;
+    top: 18px;
+    left: 18px;
+    border-top: 0;
+    padding-top: 0;
+    float: none;
+
+}
+
+.topic-avatar .avatar {
+    height: 36px;
+    width: 36px;
+}
+
+.topic-meta-data {
+  padding-left: 50px;
+}
+
+.topic-body .regular {
+    margin: 20px;
+}
+
+
+
+
+
 .extra-info h1 {
     margin: 5px 0 0 0;
     font-size: 21px;
     line-height: inherit;
     width: 100%;
+    color: red;
 }
 
 /* PANELS */
@@ -212,6 +252,11 @@ tbody {
     vertical-align: middle;
 }
 
+
+.deleted .topic-body {
+  background-color: transparent;
+  opacity: 0.5;
+}
 
 /* CATEGORY LISTS */
 
