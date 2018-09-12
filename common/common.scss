@@ -173,19 +173,14 @@ h1, #topic-title h1, .body-page h1, .styleguide .styleguide-section .section-tit
 
 
 /* TOPIC POSTS */
-.topic-body {
-    float: none;
-}
-
 .topic-avatar {
     position: absolute;
     width: 36px;
-    top: 18px;
+    top: 28px;
     left: 18px;
     border-top: 0;
     padding-top: 0;
     float: none;
-
 }
 
 .topic-avatar .avatar {
@@ -193,12 +188,25 @@ h1, #topic-title h1, .body-page h1, .styleguide .styleguide-section .section-tit
     width: 36px;
 }
 
+.topic-body {
+    float: none;
+
+    @include boxShadow;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0px;
+    padding: 0;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+
 .topic-meta-data {
-  padding-left: 50px;
+  padding: 0 0 0 50;
+  min-height: 52px;
 }
 
 .topic-body .regular {
-    margin: 20px;
+    margin: 20px 20px 0 20px;
 }
 
 
