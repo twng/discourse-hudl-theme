@@ -389,7 +389,19 @@ tbody {
   opacity: 0.5;
 }
 
-/* CATEGORY LISTS */
+/* HOME CATEGORY LISTS */
+.category-list tbody .category h3 a[href] {
+    color: #6CBD8A;
+}
+
+.category-list tbody .category h3 {
+    font-size: 0.889rem;
+    line-height: 1.15;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 0.167rem;
+}
+
 
 // Category list header
 h6,
