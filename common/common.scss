@@ -506,32 +506,6 @@ div.poll .poll-info .info-text,
 
 /* TOPIC LISTS */
 
-// Sams simple theme update //
-.topic-list > tbody > tr:nth-child(odd) {
-    background-color: red;
-}
-
-
-.topic-list > tbody tr:not(.last-visit):not(.topic-list-item-separator) td {
-    border-bottom: 1px solid blue;
-}
-
-.topic-list a.title:not(.badge-notification) {
-    color: #3b5998;
-    font-weight: normal;
-    font-family: 'Helvetica Neue', Helvetica, Arial, Utkal, sans-serif;
-    font-size: 18px;
-}
-
-.topic-list a.title:not(.badge-notification):hover {
-    text-decoration: underline;
-}
-
-// End sams simple theme injection
-
-
-
-
 .topic-list-main-link, .topic-list .main-link, .latest-topic-list-item .main-link {
     font-size: 1rem;
     font-weight: 400;

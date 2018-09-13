@@ -9,3 +9,175 @@
 .topic-body {
 
 }
+
+// Sams simple theme update //
+
+.topic-list > tbody > tr:nth-child(odd) {
+    background-color: red;
+}
+
+
+.topic-list > tbody tr:not(.last-visit):not(.topic-list-item-separator) td {
+    border-bottom: 1px solid blue;
+}
+
+.topic-list a.title:not(.badge-notification) {
+    color: blue;
+    font-weight: normal;
+    font-family: 'Helvetica Neue', Helvetica, Arial, Utkal, sans-serif;
+    font-size: 18px;
+}
+
+.topic-list a.title:not(.badge-notification):hover {
+    text-decoration: underline;
+
+}
+
+.topic-list .creator, .topic-list .editor {
+    font-size: 13px;
+    color: cyan;
+    background-color: red;
+    display: block;
+    margin-top: 3px;
+}
+
+.topic-list .main-link {
+  background-color: purple;
+
+    width: auto;
+}
+
+.topic-list {
+    td, .creator a, .editor a {
+        color: orange;
+    }
+}
+
+.topic-list td {
+    padding-bottom: 10px;
+}
+
+.topic-list th {
+    color: black;
+    background-color: cyan;
+}
+.topic-list {
+    border-top: 1px solid green;
+}
+
+.topic-list td:first-of-type {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: black;
+}
+
+.topic-list tr.topic-list-item-separator td:first-of-type {
+    padding: 0;
+    background-color: yellow;
+}
+
+
+.topic-list {
+    .fa-tag {
+        opacity: 0.7;
+        font-size: 10px;
+        margin-right: -2px;
+    }
+    .num.posts-map {
+        position: relative;
+        font-size: 17px;
+        a {
+            color: #888 !important;
+            font-weight: normal;
+        }
+        a.heatmap-high {
+            color: #c66 !important;
+        }
+        width: 100px;
+    }
+}
+
+.topic-list td.last-post, .topic-list th.activity {
+    width: 160px;
+    .relative-date {
+        color: #666;
+    }
+}
+
+.topic-list .creator .relative-date {
+    margin-left: 8px;
+}
+
+.badge-category-bg {
+    opacity: 0.8;
+}
+
+.topic-list .badge-wrapper.bar {
+    .badge-category {
+      color: orange !important;
+      font-weight: 800;
+      font-size: 12px;
+      padding: 2px 6px;
+    }
+    .badge-category-bg {
+        top: -1px;
+    }
+}
+
+.last-post {
+    .poster-avatar {
+        margin-right: 10px;
+    }
+    .poster-avatar, .poster-info {
+        float: left;
+    }
+}
+
+.topic-list .posts {
+    width: auto;
+}
+
+/* topic page */
+#topic-progress {
+    background-color: green;
+    color: orange;
+    font-weight: normal;
+    .bg {
+       background-color: #bee9e9;
+    }
+}
+
+nav.post-controls button.has-like {
+    color: #08c;
+}
+
+.badge-wrapper.bullet span.badge-category {
+    color: red !important;
+}
+
+.creator .badge-wrapper.bullet span.badge-category {
+    color: purple !important;
+    margin-top: -2px;
+}
+
+#suggested-topics td.main-link {
+    width: 500px;
+    background-color: pink;
+}
+
+.topic-list a.title.visited:not(.badge-notification) {
+    color: #6644aa;
+}
+
+
+.topic-list-item .discourse-tags {
+    font-size: 0.75em;
+    color: cyan;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+
+
+// End sams simple theme injection
