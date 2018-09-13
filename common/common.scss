@@ -271,12 +271,54 @@ nav.post-controls .like-button .like-count {
     position: relative;
 }
 
+.topic-map .map li {
+    padding: 8px 10px;
+    line-height: 1.15;
+}
+
+.topic-map .map .topic-map-post {
+
+    margin-top: 8px;
+
+    span.relative-date {
+        font-size: 0.889rem;
+        letter-spacing: 0.5px;
+    }
+}
+
+.topic-map .map .number {
+  font-size: 0.889rem;
+  font-weight: 300;
+}
+
+.topic-map h4 {
+  font-size: 0.889rem;
+  font-weight: 300;
+  line-height: 1.15;
+}
+
+
 .topic-map .buttons .btn {
   border: 0;
   padding: 0 23px;
   color: #FFFFFF;
   background: #6CBD8A;
+  border-radius: 0;
 }
+
+.topic-map .buttons .btn:hover {
+    background: #90CDA6;
+}
+
+.topic-map .buttons .btn .fa {
+    color: #FFF;
+}
+
+.topic-map .map a, .topic-map .map .number {
+    line-height: 1.15;
+}
+
+
 
 
 .extra-info h1 {
