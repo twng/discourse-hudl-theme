@@ -366,7 +366,8 @@ tbody {
 .table thead th, .topic-list thead td,
 .topic-list thead th, .category-list thead td,
 .category-list thead th, .latest-topic-list .more-topics,
-.latest-topic-list .table-heading, .directory table thead td,
+.latest-topic-list .table-heading,
+.directory table thead td,
 .directory table thead th, .groups-table thead td,
 .groups-table thead th, .user-main .user-content .user-invite-list th, .admin-contents table:not(.pika-table) thead td,
 .admin-contents table:not(.pika-table) thead th, .permalinks .col.heading,
@@ -377,10 +378,15 @@ tbody {
 .staff-actions .col.heading,
 .web-hook-events .col.heading {
     color: #343C3D;
-    font-size: 1rem;
+    font-size: 0.778rem;
     height: 56px;
-    padding: 12px 12px;
+    padding: 16px 12px 12px 21px;
     vertical-align: middle;
+}
+
+// fix for odd 2px shift due to table cell alignment
+.latest-topic-list .table-heading {
+  padding-top: 18px;
 }
 
 
@@ -455,7 +461,7 @@ div.poll .poll-info .info-text,
 }
 .category-list thead td:last-of-type,
 .category-list thead th:last-of-type {
-    padding-right: 24px;
+    padding-right: 18px;
 }
 
 .category-list tbody td:first-of-type,
@@ -465,7 +471,7 @@ div.poll .poll-info .info-text,
 
 .category-list tbody td:last-of-type,
 .category-list tbody th:last-of-type {
-  padding-right: 24px;
+  padding-right: 18px;
 }
 
 .category-list tbody .category {
@@ -473,9 +479,26 @@ div.poll .poll-info .info-text,
 }
 
 .category-list thead th {
+  font-size: 0.778rem;
     font-weight: 400;
     white-space: nowrap;
 }
+
+.category-list .topics {
+    width: 100px;
+
+    .value {
+      font-size: 0.778rem;
+      font-weight: 300;
+    }
+
+    .unit {
+      font-size: 0.778rem;
+      font-weight: 300;
+    }
+}
+
+
 
 /* BADGES */
 .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {
