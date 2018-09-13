@@ -230,6 +230,10 @@ nav.post-controls button.d-hover, nav.post-controls button:focus {
   border-radius: 3px;
 }
 
+nav.post-controls button:active {
+    box-shadow: none;
+}
+
 nav.post-controls .create i {
     margin-right: 8px;
 }
@@ -300,9 +304,9 @@ nav.post-controls .like-button .like-count {
 
 .topic-map .buttons .btn {
   border: 0;
-  padding: 0 23px;
+  padding: 0 1.333rem;
   color: #FFFFFF;
-  background: #6CBD8A;
+  background: #A1D5B4;
   border-radius: 0;
 }
 
@@ -385,7 +389,7 @@ div.poll .poll-info .info-text,
 .topic-map h3,
 .settings .setting h3 {
 
-    color: red;
+    color: #343C3D;
 
 }
 
