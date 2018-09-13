@@ -506,6 +506,10 @@ div.poll .poll-info .info-text,
   border: 1px solid #9190AC;
 }
 
+.select-kit.dropdown-select-box .select-kit-body {
+    border: 1px solid #9190AC;
+}
+
 .select-kit.combo-box.category-drop .select-kit-row .badge-wrapper {
     font-weight: 400;
 }
@@ -539,9 +543,7 @@ div.poll .poll-info .info-text,
   letter-spacing: 0.5px;
 }
 
-.list-controls .select-kit .select-kit-collection {
-    border: 1px solid #9190AC;
-}
+
 
 
 /* BADGES */
