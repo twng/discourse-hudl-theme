@@ -379,6 +379,7 @@ tbody {
 .web-hook-events .col.heading {
     color: #343C3D;
     font-size: 0.778rem;
+    font-weight: 400;
     height: 56px;
     padding: 16px 12px 12px 21px;
     vertical-align: middle;
@@ -387,6 +388,7 @@ tbody {
 // fix for odd 2px shift due to table cell alignment
 .latest-topic-list .table-heading {
   padding-top: 18px;
+
 }
 
 
@@ -479,8 +481,6 @@ div.poll .poll-info .info-text,
 }
 
 .category-list thead th {
-  font-size: 0.778rem;
-    font-weight: 400;
     white-space: nowrap;
 }
 
