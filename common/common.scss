@@ -406,14 +406,18 @@ tbody {
     font-size: 0.889rem;
     line-height: 1.15;
     font-weight: 400;
-    text-transform: uppercase;
     margin-bottom: 0.167rem;
+}
+
+.category-list .category-name {
+    overflow: visible;
+    line-height: 1.15;
 }
 
 // HOME latest topics list
 .latest-topic-list-item .main-link .top-row {
     margin-bottom: 0.15rem;
-    font-size: 1rem;
+    font-size: 1.167rem;
     font-weight: 400;
     line-height: 1.4;
 }
@@ -499,6 +503,29 @@ div.poll .poll-info .info-text,
       font-weight: 300;
     }
 }
+
+/* TOPIC LISTS */
+.topic-list-main-link, .topic-list .main-link, .latest-topic-list-item .main-link {
+    font-size: 1.167rem;
+    font-weight: 400;
+}
+
+.topic-list .topic-excerpt {
+    font-size: 0.889rem;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-top: 6px;
+    color: #343C3D;
+    line-height: 1.618;
+    padding-right: 24px;
+}
+
+
+
+.topic-list th:first-of-type, .topic-list td:first-of-type {
+    padding-left: 24px;
+}
+
 
 /* NAVS */
 .nav-pills > li {
