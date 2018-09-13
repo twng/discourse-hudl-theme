@@ -201,14 +201,44 @@ h1, #topic-title h1, .body-page h1, .styleguide .styleguide-section .section-tit
 }
 
 .topic-meta-data {
-  padding: 10px 16px 0 68px;  
+  padding: 10px 16px 0 68px;
   min-height: 58px;
+}
+
+.topic-meta-data .post-info a {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    padding: 10px 8px;
 }
 
 .topic-body .regular {
     margin: 20px 20px 0 20px;
 }
 
+
+// Post buttons
+nav.post-controls button {
+  font-size: 1.167rem;
+}
+
+nav.post-controls a, nav.post-controls button {
+  color: #9190AC;
+}
+
+nav.post-controls button.d-hover, nav.post-controls button:focus {
+  border-radius: 3px;
+}
+
+nav.post-controls .create i {
+    margin-right: 8px;
+}
+
+nav.post-controls button.create {
+  span.d-button-label {
+    font-size: 1rem;
+  }
+}
 
 
 
