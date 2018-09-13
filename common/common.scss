@@ -502,6 +502,10 @@ div.poll .poll-info .info-text,
 
 
 // All categories Dropdown menu
+.select-kit.combo-box.category-drop .select-kit-body {
+  border: 1px solid #9190AC;
+}
+
 .select-kit.combo-box.category-drop .select-kit-row .badge-wrapper {
     font-weight: 400;
 }
@@ -515,6 +519,28 @@ div.poll .poll-info .info-text,
 
 .select-kit .select-kit-row {
     line-height: 1.618;
+}
+
+
+// manage categories drop-down
+.select-kit.dropdown-select-box .select-kit-row .icons .d-icon {
+  font-size: 1rem;
+  color: #9190AC;
+}
+
+.select-kit.dropdown-select-box .select-kit-row .texts .name {
+  font-weight: 400;
+  font-size: 0.889rem;
+}
+
+.select-kit.dropdown-select-box .select-kit-row .texts .desc {
+  font-size: 0.778rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.list-controls .select-kit .select-kit-collection {
+    border: 1px solid #9190AC;
 }
 
 
