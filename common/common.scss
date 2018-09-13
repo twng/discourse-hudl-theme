@@ -506,14 +506,15 @@ div.poll .poll-info .info-text,
 }
 .nav-pills > li > a {
     color: #d8ede0;
-    font-size: 1.1487em;
-    line-height: 1.2;
+    font-size: 1rem;
     background: #4CAA6F;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .nav-pills > li.active > a, .nav-pills > li > a.active {
     color: #fff;
-    background-color: #7ec598;
+    background-color: #90CDA6;
 }
 
 .nav-pills > li > a:hover {
