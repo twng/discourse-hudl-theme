@@ -487,16 +487,34 @@ div.poll .poll-info .info-text,
 .category-list .topics {
     width: 100px;
     font-size: 0.778rem;
-    font-weight: 300;
+    font-weight: 400;
     .value {
       font-size: 0.778rem;
+      font-weight: 300;
     }
 
     .unit {
       font-size: 0.778rem;
+      font-weight: 300;
     }
 }
 
+
+// All categories Dropdown menu
+.select-kit.combo-box.category-drop .select-kit-row .badge-wrapper {
+    font-weight: 400;
+}
+.select-kit.combo-box.category-drop .badge-wrapper {
+    font-size: 0.778rem;
+}
+
+.select-kit.combo-box .select-kit-row {
+    padding: 12px 10px;
+}
+
+.select-kit .select-kit-row {
+    line-height: 1.618;
+}
 
 
 /* BADGES */
