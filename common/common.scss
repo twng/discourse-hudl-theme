@@ -44,3 +44,12 @@ h1, h2, h3, h4, h5, h6 {
 .btn {
   border-radius: 3px;
 }
+
+/* CATEGORY BULLETS */
+.badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {
+    width: 9px;
+    height: 9px;
+    margin-right: 5px;
+    display: inline-block;
+    border-radius: 50%;
+}
