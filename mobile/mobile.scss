@@ -8,3 +8,10 @@
 .d-header button.sign-up-button {
 //    display: none;
 }
+
+/* LOGIN */
+button#login-link, button#new-account-link {
+    background: transparent;
+    color: #4caa6f;
+    border: 1px solid #4caa6f;
+}
