@@ -14,6 +14,8 @@ html {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* FONT WEIGHT ADJUSTMENTS */
+
 strong {
     font-weight: 600;
 }
@@ -28,4 +30,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .badge-wrapper {
     font-weight: 600;
+}
+
+
+
+/* HEADER */
+.d-header {
+    box-shadow: none;
+}
+
+
+/* BUTTONS */
+.btn {
+  border-radius: 3px;
 }
