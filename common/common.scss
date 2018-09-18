@@ -33,6 +33,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+/* LINK COLOURS */
+// visited links
+.topic-list-item.visited a.title:not(.badge-notification),
+.latest-topic-list-item.visited a.title:not(.badge-notification),
+.category-topic-link.visited a.title:not(.badge-notification) {
+    color: #9190AC;
+}
+
 
 /* HEADER */
 .d-header {
@@ -47,9 +55,5 @@ h1, h2, h3, h4, h5, h6 {
 
 /* CATEGORY BULLETS */
 .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {
-    width: 9px;
-    height: 9px;
-    margin-right: 5px;
-    display: inline-block;
     border-radius: 50%;
 }
