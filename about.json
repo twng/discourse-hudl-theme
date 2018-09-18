@@ -4,16 +4,16 @@
     "license_url": "https://github.com/twng/discourse-hudl-theme/LICENSE ",
     "color_schemes": {
         "Hudl Default": {
-            "primary": "343C3D",
-            "secondary": "f0f0f0",
-            "tertiary": "9190AC",
-            "quaternary": "7EC598",
+            "primary": "3A3944",
+            "secondary": "FFFFFF",
+            "tertiary": "4CAA6F",
+            "quaternary": "686689",
             "header_background": "A1D5B4",
-            "header_primary": "ffffff",
-            "highlight": "eefd54",
+            "header_primary": "FFFFFF",
+            "highlight": "FFFF4D",
             "danger": "C91432",
-            "success": "2e7b32",
-            "love": "e91e63"
+            "success": "009900",
+            "love": "FA6C8D"
         }
     }
 }
