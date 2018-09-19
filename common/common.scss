@@ -46,6 +46,9 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.618;
 }
 
+// FAQs
+
+
 /* LINK COLOURS */
 // visited links
 .topic-list-item.visited a.title:not(.badge-notification),
@@ -65,6 +68,10 @@ h1, h2, h3, h4, h5, h6 {
 .btn {
   border-radius: 3px;
   text-transform: uppercase;
+}
+
+.btn .no-icon .btn-text {
+
 }
 
 /* CATEGORY BULLETS */
@@ -88,5 +95,5 @@ input[type="url"],
 input[type="search"],
 input[type="tel"],
 input[type="color"] {
-    border: 1px solid #7EC598;
+    border: 1px solid #9FD9B4;
 }

@@ -15,3 +15,13 @@ button#login-link, button#new-account-link {
     color: #4caa6f;
     border: 1px solid #4caa6f;
 }
+
+
+// FAQs
+.mobile-view .body-page {
+    line-height: 1.618;
+
+    .nav-pills > li > a {
+        font-size: 1em;
+    }
+}
