@@ -40,6 +40,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
 }
 
+.select-kit.dropdown-select-box .select-kit-row .texts .name {
+    font-weight: 600;
+}
+
 /* LINE HEIGHT ADJUSTMENTS */
 .cooked,
 .d-editor-preview {
@@ -63,6 +67,9 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: none;
 }
 
+.d-header-icons .unread-notifications {
+    background-color: #C91432;
+}
 
 /* BUTTONS */
 .btn {
