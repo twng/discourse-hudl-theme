@@ -133,14 +133,48 @@ $background-color: #656478;
    SECTION:  BOXES
 -----------------------------------------*/
 
+// banner background image
 .banner-box {
-    margin-bottom: 18px;
+    margin-bottom: 1rem;
     background-image: url("http://www.feedletwo.com/hudl/banner-bg.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-color: $background-color; /* to be sure that even if the image above will not be loaded there will be at least a colored background */
+}
 
+//MAKE IT A FULL WIDTH BANNER
+.banner-box {
+    // added 8/9px correction to account for container padding
+    margin-left: calc(-50vw + 50% + 8px);
+    margin-right: calc(-50vw + 50% + 9px);
+}
+
+.banner-box .container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 8px
+}
+
+#main-outlet {
+    padding-top: 64px; /*this value must be changed if the height of the header has been changed*/
+}
+
+
+// TYPOGRAPHY
+
+.banner-box .container {
+    h1, h2 {
+        color: white;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
 }
 
 //CLOSE BUTTON ON THE TOP RIGHT
@@ -152,23 +186,6 @@ $background-color: #656478;
     float: right;
 }
 
-//MAKE IT A FULL WIDTH BANNER
-
-.banner-box .container {
-    max-width: 70%;
-    margin: 0 auto;
-}
-
-.banner-box {
-    // added 8/9px correction to account for container padding
-    margin-left: calc(-50vw + 50% + 8px);
-    margin-right: calc(-50vw + 50% + 9px);
-
-}
-
-#main-outlet {
-    padding-top: 64px; /*this value must be changed if the height of the header has been changed*/
-}
 
 .navigation-container,
 .alert.alert-info {
