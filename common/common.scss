@@ -127,7 +127,7 @@ span.post-count {
 -------------------------------------------------*/
 
 $main-color: #5270FE;
-$background-color: #BFD7FF;
+$background-color: #656478;
 
 /*---------------------------------------
    SECTION:  BOXES
@@ -147,7 +147,7 @@ $background-color: #BFD7FF;
     background-position: center center;
     background-repeat: no-repeat;
     background-color: $background-color; /* to be sure that even if the image above will not be loaded there will be at least a colored background */
-    //background-attachment: fixed;
+
 }
 
 .x-title {
