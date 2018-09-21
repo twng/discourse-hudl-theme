@@ -145,7 +145,18 @@ span.post-count {
         margin-right: calc(-50vw + 50% + 9px);
     }
 
-    
+    .banner-bg-overlay {
+
+        background-color: rgb(72,72,86,0.5);
+
+        .container {
+            max-width: 1110px;
+            min-height: 250px;
+            margin: 0 auto;
+
+            
+        }
+    }
 }
 
 // only show CTA when not logged in
