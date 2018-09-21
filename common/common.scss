@@ -147,6 +147,8 @@ span.post-count {
 
     .banner-bg-overlay {
 
+        background-color: rgb(72,72,86,0.5);
+
         .container {
             max-width: 1110px;
             min-height: 250px;
@@ -154,13 +156,42 @@ span.post-count {
 
             .content {
                 text-align: center;
+                max-width: 67%;
+                margin: 0 auto;
+                padding-bottom: 2.571rem;
 
-                h1, h2 {
+                h1, p {
                     color: white;
+                }
+
+                h1 {
+                    font-weight: 300;
+                    font-size: 2.571rem;
+                    line-height: 1.15;
+                    margin-top: 3.429rem;
+                }
+
+                p {
+                    font-size: 1.286rem;
+                }
+
+                .cta {
+                    display: none;
+                    background-color: #4caa6f;
+                    color: white;
+                    border-radius: 3px;
+                    text-transform: uppercase;
+                    padding: 8px 14px;
+                    letter-spacing: 0.5px;
                 }
             }
         }
     }
+}
+
+// only show CTA when not logged in
+.anon #HeroBanner .cta {
+    display: inline-block;
 }
 
 #main-outlet {
