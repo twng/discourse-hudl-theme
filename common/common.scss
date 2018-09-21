@@ -194,10 +194,15 @@ span.post-count {
 }
 
 // only show on certain pages
-.navigation-topics #HeroBanner {
+.navigation-topics #HeroBanner,
+.navigation-categories #HeroBanner {
     display: block;
 }
 
+.navigation-topics #main-outlet,
+.navigation-categories #main-outlet {
+    padding-top: 63px; /*this value must be changed if the height of the header has been changed*/
+}
 
 @media only screen and (min-width: 320px) and (max-width: 800px) {
     #HeroBanner > .banner-bg-overlay > .container > .content {
