@@ -9,3 +9,21 @@
 .topic-body {
 
 }
+
+
+/***********************************************
+*
+*    BANNER STUFF
+*
+************************************************/
+
+#main-outlet {
+    padding-top: 64px; /*this value must be changed if the height of the header has been changed*/
+}
+
+
+.navigation-container,
+.alert.alert-info {
+    margin-top: 18px;
+    margin-bottom: 0px;
+}

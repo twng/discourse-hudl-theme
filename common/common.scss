@@ -123,9 +123,6 @@ span.post-count {
 *
 ************************************************/
 
-/*---------------------------------------
-   SECTION:  BOXES
------------------------------------------*/
 
 // banner background image
 #HeroBanner {
@@ -194,15 +191,9 @@ span.post-count {
     display: inline-block;
 }
 
-#main-outlet {
-    padding-top: 64px; /*this value must be changed if the height of the header has been changed*/
-}
 
-
-
-
-.navigation-container,
-.alert.alert-info {
-    margin-top: 18px;
-    margin-bottom: 0px;
+@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+    #HeroBanner > .banner-bg-overlay > .container > .content {
+        max-width: 90%;
+    }
 }
