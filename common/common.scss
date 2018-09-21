@@ -190,9 +190,7 @@ span.post-count {
 }
 
 // only show CTA when not logged in
-.anon #HeroBanner .cta {
-    display: inline-block;
-}
+
 
 #main-outlet {
     padding-top: 64px; /*this value must be changed if the height of the header has been changed*/
