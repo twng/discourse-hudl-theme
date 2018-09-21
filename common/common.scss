@@ -190,7 +190,7 @@ span.post-count {
 }
 
 // only show CTA when not logged in
-.anon #HeroBanner .content > .cta {
+.anon #HeroBanner > .banner-bg-overlay > .container > .content > .cta {
     display: inline-block;
 }
 
