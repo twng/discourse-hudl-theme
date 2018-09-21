@@ -122,38 +122,45 @@ span.post-count {
 *    BANNER STUFF
 *
 ************************************************/
-/*-------------------------------------------------
-   VARIABLES: choose the colors of your banner
--------------------------------------------------*/
-
-$main-color: #5270FE;
-$background-color: #656478;
 
 /*---------------------------------------
    SECTION:  BOXES
 -----------------------------------------*/
 
 // banner background image
-.banner-box {
+#HeroBanner {
     margin-bottom: 1rem;
-    background-image: url("http://www.feedletwo.com/hudl/banner-bg.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: $background-color; /* to be sure that even if the image above will not be loaded there will be at least a colored background */
-}
+    background-color: #656478;
+    /* to be sure that even if the image above will not be loaded there will be at least a colored background */
+    background-image: linear-gradient(to right, #656478, #9190AC);
+    background-image: url("http://www.feedletwo.com/hudl/banner-bg.jpg");
 
-//MAKE IT A FULL WIDTH BANNER
-.banner-box {
-    // added 8/9px correction to account for container padding
-    margin-left: calc(-50vw + 50% + 8px);
-    margin-right: calc(-50vw + 50% + 9px);
-}
+    // make it full width
+    &.full-width {
+        // added 8/9px correction to account for container padding
+        margin-left: calc(-50vw + 50% + 8px);
+        margin-right: calc(-50vw + 50% + 9px);
+    }
 
-.banner-box .container {
-    max-width: 1110px;
-    margin: 0 auto;
-    padding: 8px
+    .banner-bg-overlay {
+
+        .container {
+            max-width: 1110px;
+            min-height: 250px;
+            margin: 0 auto;
+
+            .content {
+                text-align: center;
+
+                h1, h2 {
+                    color: white;
+                }
+            }
+        }
+    }
 }
 
 #main-outlet {
@@ -161,30 +168,6 @@ $background-color: #656478;
 }
 
 
-// TYPOGRAPHY
-
-.banner-box .container {
-    h1, h2 {
-        color: white;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-    }
-}
-
-//CLOSE BUTTON ON THE TOP RIGHT
-
-.banner-box .close {
-    border: none;
-    background: transparent;
-    padding-top: 5px;
-    float: right;
-}
 
 
 .navigation-container,
