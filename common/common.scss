@@ -81,9 +81,29 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+/* NAV PILLS */
+.nav-pills > li > a {
+    line-height: 1.313; // to equalise with category dropdown
+}
+
+/* CATEGORY LOGOS */
+.category-logo {
+    max-height: 90px;
+    float: right;
+    margin-left: 1.5em;
+}
+
+/* CATEGORY DROPDOWN */
+.select-kit.combo-box .select-kit-collection .collection-header a {
+    font-weight: 600;
+}
 /* CATEGORY BULLETS */
 .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {
     border-radius: 50%;
+}
+
+.badge-wrapper .badge-category .category-name {
+    line-height: 1.4rem; // descenders getting cut off
 }
 
 
