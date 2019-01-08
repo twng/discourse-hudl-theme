@@ -151,13 +151,13 @@ span.post-count {
 #HeroBanner {
     display: none;
     margin-bottom: 1rem;
-    background-size: cover;
-    background-position: center center;
+    background-size: contain;
+    background-position: right center;
     background-repeat: no-repeat;
     background-color: #656478;
     /* to be sure that even if the image above will not be loaded there will be at least a colored background */
     background-image: linear-gradient(to right, #656478, #9190AC);
-    background-image: url("http://www.feedletwo.com/hudl/banner-bg.jpg");
+    background-image: url("http://www.feedletwo.com/hudl/banner-graphic-2.jpg");
 
     // make it full width
     &.full-width {
