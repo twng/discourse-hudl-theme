@@ -6,11 +6,11 @@
         "Hudl Default": {
             "primary": "3A3944",
             "secondary": "FFFFFF",
-            "tertiary": "4CAA6F",
+            "tertiary": "008BD2",
             "quaternary": "686689",
             "header_background": "91358B",
             "header_primary": "FFFFFF",
-            "highlight": "E5F3EA",
+            "highlight": "F4EAF3",
             "danger": "C91432",
             "success": "009900",
             "love": "FA6C8D"
