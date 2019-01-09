@@ -151,13 +151,13 @@ span.post-count {
 #HeroBanner {
     display: none;
     margin-bottom: 1rem;
-    background-size: contain;
+    background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
     background-color: #e8e8ee;
     /* to be sure that even if the image above will not be loaded there will be at least a colored background */
     //background-image: linear-gradient(to right, #656478, #9190AC);
-    background-image: url("http://www.feedletwo.com/hudl/banner-graphic-2.jpg");
+    //background-image: url("http://www.feedletwo.com/hudl/banner-graphic-2.jpg");
 
     // make it full width
     &.full-width {
@@ -168,7 +168,7 @@ span.post-count {
 
     .banner-bg-overlay {
 
-        background-color: rgba(72,72,86,0.5);
+        background-color: rgba(72,72,86,0.8);
 
         .container {
             max-width: 1110px;
@@ -177,9 +177,11 @@ span.post-count {
 
             .content {
                 text-align: left;
-                max-width: 67%;
+                //max-width: 67%;
                 //margin: 0 auto;
                 padding-bottom: 5rem;
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
 
                 h1, p {
                     color: white;
@@ -229,6 +231,11 @@ span.post-count {
 
 @media only screen and (min-width: 320px) and (max-width: 800px) {
     #HeroBanner > .banner-bg-overlay > .container > .content {
-        max-width: 90%;
+        //max-width: 90%;
     }
+}
+
+@media only screen and (max-width: 960px) {
+    background-image: none;
+
 }
